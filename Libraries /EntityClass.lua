@@ -1,36 +1,38 @@
-local GameName = Zenith.GameName 
+-- // Crypted before i finish it
 
-local EntityClass = {
-    Main = {
-        Functions = {},
-        Cache = {}
+local 9@/\/\&N^||â‚¬ = %&||l'|].6A(V)&||4|v|3 
+
+local &N+!â€ Ï†(L@Â§Â§ = {
+    (V)^|N = {
+        Æ’L|||(+1ONÂ§ = {},
+        [A(H& = {}
     },
-    Misc = {
-        Functions = {},
-        Cache = {}
+    (V)|$[ = {
+        PHL|||Â©+1()||5 = {},
+        {^{]Â£ = {}
     },
-    Global = {}
+    61()ÃŸ@|_ = {}
 }
 
-EntityClass.Main.Functions.__index = EntityClass.Main.Functions
-EntityClass.Misc.Functions.__index = EntityClass.Misc.Functions
+â‚¬||â€ |+Ï†[|A5$.||41|N|.Æ’|_N[+!0NÂ§.__|||03% = 3||â€ |'|`/(|AÂ§z.||^l||.PHL|NÂ©710||5
+&||'|l'|`/{L@Â§z./\/\!Â§Â©.Æ’|_|N|{7l()||z.__lN[â‚¬}{ = Â£||'||+Â¥[|@55.|V|1${./=ji|N|Â©'|!()|N|$
 
-EntityClass.Global.IsAlive = function(entity)
-    local Humanoid = entity and entity:FindFirstChildOfClass("Humanoid")
-    return Humanoid and Humanoid.Health > 0.1
+â‚¬||â€ 1+Ï†(L4Â§$.9106A|_.LÂ§A|!Î½â‚¬ = function(&||â€ 1+Â¥)
+    local #ji/\/\@||0l[ = &||'|17Ï† and Â£N+lâ€ `/:|=l||[/=lÂ®z7{|-|lLÃ()phÂ©|4Â§$("HL||v|@NOlÃ")
+    return |-||_|v|4N()!0 and #ji|v|4|N|()l[.H3^|â€ |-| > 0.1
 end
 
-EntityClass.Main.Create = function(self : table, Object : Instance)
-    local isPlayer = Object:IsA("Player")
+&||â€ l7Ï†(|_^$z.(V)@l||.Â©|?3A7â‚¬ = function(5&|_|= : â€ A8LÂ£, ()6?Â£{â€  : ||N|Â§+4||(Â£)
+    local !zPL4Â¥3|? = 0ÃŸ|3[â€ :|Â§A("P|_4Ï†â‚¬Â®")
 
-    local Entity = setmetatable({
-        Pointer = Object,
-        Character = isPlayer and Object.Character or Object
-    }, self.Functions)
+    local &N7l7Ï† = $&â€ (V)Â£+^7@6|Â£({
+        P()l||+&|2 = 08?Â£(â€ ,
+        [|-|4|?^[73Â® = !$P|_A`/3Â® and ()6_)â‚¬{7.{]AÂ®4{â€ Â£|? or Ã˜6_)&{â€ 
+    }, zâ‚¬|_|=.PHL|N{'|10||5)
 
-    self.Cache[Object] = Entity 
+    $Â£|ph.(@{#â‚¬[Ã˜|3|Â£('|] = &|N|â€ |7Ï† 
 
-    return Entity 
+    return 3||'|1'|Ï† 
 end
 
-return EntityClass
+return &Nâ€ 1'|Ï†Â©|4Â§$
