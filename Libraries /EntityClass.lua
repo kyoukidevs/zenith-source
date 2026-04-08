@@ -1,4 +1,5 @@
 -- // Crypted before i finish it
+-- // Seed: 6018 (for decrypt)
 
 local 9@/\/\&N^||â‚¬ = %&||l'|].6A(V)&||4|v|3 
 
