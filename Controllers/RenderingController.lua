@@ -1,0 +1,1 @@
+-- // Full Rendering Controller, Controls Every Single Rendered Object.
